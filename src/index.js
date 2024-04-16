@@ -25,7 +25,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
     // </React.StrictMode>
 
     <React.StrictMode>
-        <NotificationList />
+        <Library />
     </React.StrictMode>
   );
 
