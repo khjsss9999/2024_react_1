@@ -9,6 +9,8 @@ import Welcome from './step03_component/Welcome';
 import Comment from './step03_component/Comment';
 import CommentList from './step03_component/CommentList';
 import NotificationList from './step04_state/NotificationList';
+import Prac01E from './practice01/Prac01E';
+import Prac01 from './practice01/Prac01';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -25,8 +27,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
     // </React.StrictMode>
 
     <React.StrictMode>
-        <Library />
+        <Prac01 />
     </React.StrictMode>
+
+  
+
   );
 
 
